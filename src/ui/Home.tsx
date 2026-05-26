@@ -52,9 +52,7 @@ export function Home({
           </p>
         </div>
         <div className="flex items-center gap-2.5">
-          <div className="w-7 h-7 grid place-items-center border-[1.5px] border-ink rounded-md font-mono font-semibold text-[13px] text-ink">
-            §
-          </div>
+          <img src="/logo-mark.svg" alt="Digital Flowchart" className="w-8 h-8" />
           <span className="eyebrow">BIO · FYS · SEX IN THE BRAIN</span>
         </div>
       </header>

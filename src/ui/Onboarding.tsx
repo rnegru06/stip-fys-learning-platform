@@ -6,9 +6,7 @@ export function Onboarding({ onContinue }: OnboardingProps) {
   return (
     <div className="relative w-[620px] bg-paper border border-rule rounded-2xl px-12 pt-11 pb-10 flex flex-col gap-[22px] shadow-[0_1px_0_rgba(0,0,0,0.02),0_12px_40px_-20px_rgba(0,0,0,0.18)]">
       <div className="flex items-center gap-2.5">
-        <div className="w-7 h-7 grid place-items-center border-[1.5px] border-ink rounded-md font-mono font-semibold text-[13px] text-ink">
-          §
-        </div>
+        <img src="/logo-mark.svg" alt="Digital Flowchart" className="w-8 h-8" />
         <span className="eyebrow">BIO · FYS · SEX IN THE BRAIN</span>
       </div>
 

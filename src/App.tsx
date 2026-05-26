@@ -137,9 +137,7 @@ export default function App() {
     <div className="flex h-full flex-col bg-paper">
       <header className="flex items-center justify-between gap-4 border-b border-rule bg-paper px-6 py-3">
         <div className="flex items-center gap-3.5">
-          <div className="w-[26px] h-[26px] grid place-items-center border-[1.5px] border-ink rounded-md font-mono font-semibold text-xs text-ink">
-            §
-          </div>
+          <img src="/logo-mark.svg" alt="Digital Flowchart" className="w-8 h-8" />
           <div className="flex flex-col">
             <span className="eyebrow text-[9.5px]">Scenario · {play.difficulty} mode</span>
             <span className="font-serif text-base font-medium text-ink leading-tight">
